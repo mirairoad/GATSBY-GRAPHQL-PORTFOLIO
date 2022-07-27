@@ -1,0 +1,28 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  align-items: center;
+}
+.header h2 {
+  font-size: 4em;
+}
+.header h3 {
+  font-size: 3em;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.btn {
+  display: inline-block;
+background: #297CD4;
+padding: 16px 16px;
+border-radius: 10px;
+margin-top: 20px;
+font-weight: 500;
+transition: all 0.3s ease;
+}
+
+.btn:hover{
+  background: #1965b7;
+  transition: all 0.3s ease;
+}
